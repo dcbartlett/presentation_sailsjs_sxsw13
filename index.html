@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Sails.js - The MVC Framework for Node.js</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Sails.js">
+		<meta name="author" content="Balderdash - Dennis Bartlett">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,15 +15,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/sails.css" id="theme">
 
-		<!-- For syntax highlighting -->
+		<!-- For syntax highlighting
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		-->
 
-		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<!-- If the query includes 'print-pdf', use the PDF print sheet 
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
+		-->
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -37,63 +39,104 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+				<section
+				style="
+				  width: 100%;
+				  height: 100%;
+				" >
+					<h1>Sails.js</h1>
+					<h3>The MVC Framework for Node.js</h3>
+					<br>
+					<img src="images/Bucket-o-people.png" height="300px" />
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
+					<h2>AHOY! Mateys!</h2>
 					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
+						Sail.js is a MVC framework built to run on node.js. 
+						You can have your project up and production ready in 
+						weeks instead of months.
 					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
+						<h2>Node.JS Base</h2>
 						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
+							Sails.JS is built on Node.JS.<br>
+							Well lets explain what Node.JS is a little.
 						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
+						<h2>What is Node.JS</h2>
+						<p>Node.JS is an extremely fast and <br>
+							effcient server for high load applications.
+						</p>
+						<p class="fragment">
+							Users of Ruby and Python will be familiar 
+							with Node.JS as it is modeled similarly to 
+							Ruby's <i style="color:#85CCD5;">Event Machine</i> and 
+							Python's <i style="color:#85CCD5;">Twisted</i>.
+						</p>
 					</section>
 					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
+						<h2>What is Node.JS</h2>
+						<p>Node.JS is very scalable.<br>
+							Instead of threading processes like other systems,
+							Node.JS handles processes as parallel
+							scheduled child processes
+						</p>
 					</section>
 					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+						<h2>Why do we use Node.JS?</h2>
+						<p></p>
 					</section>
 				</section>
 
 				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview. Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
+					<section>
+						<h2>Sails.JS, Why you should use it?</h2>
+						<p>
+							We think you should use Sails.JS to build...well, eveything.
+						</p>
+						<p class="fragment">
+							Sails.JS has a RESTful API built in.
+						</p>
+						<p class="fragment">
+							Sails.JS creates a default codebase for your project.
+						</p>
+						<p class="fragment">
+							Sails.JS allows for different databases.
+						</p>
+						<p class="fragment">
+							Sails.JS has support for socket/websockets.
+						</p>
+					</section>
+					<section>
+						<h2>RESTful API</h2>
+						<p>
+							Sails.JS has a scaffolding system that generates a
+							simple CRUD system for each model you create.
+						</p>
+						<p class="fragment">
+							API is reachable both internally and via calls to
+							a URI (http://yourproject.org/Model/&lt;Operation&gt;)
+						</p>
+					</section>
+					<section>
+						<h2>Blueprints</h2>
+						<p>
+							Blueprints are templates that are created for
+							your project when you generate it.
+						</p>
+						<p class="fragment">
+							<i style="color:#85CCD5;">sails new &lt;project_name&gt;</i>
+						</p>
+						<p class="fragment">
+							
+						</p>
+					</section>
 				</section>
 
 				<section>
@@ -357,7 +400,7 @@ function linkify( selector ) {
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: 'zoom', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
